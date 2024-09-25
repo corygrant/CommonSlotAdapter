@@ -469,7 +469,7 @@
       "plot": "gerbers/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "../Export/V1/CommonSlotAdapter.step",
       "svg": "",
       "vrml": ""
     },

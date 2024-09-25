@@ -1525,7 +1525,7 @@
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R1"
-			(at 0 -1.65 360)
+			(at 0 -1.65 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "6d2b5264-ffc6-48ee-97fc-0d1e257e6bd1")
@@ -1537,7 +1537,7 @@
 			)
 		)
 		(property "Value" "1K"
-			(at 0 1.65 360)
+			(at 0 1.65 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "d3d7474c-dc67-4d07-8ceb-b5acf078c055")
@@ -1693,7 +1693,7 @@
 			(uuid "ed55aecd-491c-4a7f-9db3-7ba90c7d6c87")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "bb3857e2-8a85-4854-9ad9-cc086a4132dc")
 			(effects
@@ -1740,7 +1740,7 @@
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R2"
-			(at 0 -1.65 360)
+			(at 0 -1.65 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "4c3b783d-9871-4f48-9a48-cc6e724840b2")
@@ -1752,7 +1752,7 @@
 			)
 		)
 		(property "Value" "1K"
-			(at 0 1.65 360)
+			(at 0 1.65 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "6d0c4676-303e-437a-b01e-018e5fd774d2")
@@ -1908,7 +1908,7 @@
 			(uuid "054aa5ed-f52c-423d-b8f2-b031a2bd1345")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "66dbd522-3cd9-4806-aa9a-57c3c3382969")
 			(effects
@@ -2251,7 +2251,7 @@
 			)
 		)
 		(property "Value" "XT60"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "27704247-8789-407c-b8de-2ce9c0b1d1ba")
@@ -2263,7 +2263,7 @@
 			)
 		)
 		(property "Footprint" "Common_slot2:XT60_Numbered"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "c874d603-b72a-45c2-a567-92dbf7d317a1")
@@ -2275,7 +2275,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "0e42425b-f3cf-43bb-8de9-d2a91d1a9ea3")
@@ -2287,7 +2287,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "c929e62d-8a09-405d-b681-0607058a2441")
@@ -2911,7 +2911,7 @@
 		(descr "LED SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "LED")
 		(property "Reference" "D1"
-			(at 0 -1.65 360)
+			(at 0 -1.65 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "e7d39cc9-553f-47a4-add7-427b85d1c444")
@@ -2923,7 +2923,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 0 1.65 360)
+			(at 0 1.65 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "b9a34da0-bdc7-484b-b602-4152f4b2062f")
@@ -3099,7 +3099,7 @@
 			(uuid "fa1c5db0-91fb-4e75-b0e3-b412ddb6824d")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "a22ec62f-1a0a-49e1-9137-393608f4cf83")
 			(effects
@@ -3160,7 +3160,7 @@
 			)
 		)
 		(property "Value" "XT60"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "34e63e39-ef62-489e-a2cc-5207fa68e8d9")
@@ -3172,7 +3172,7 @@
 			)
 		)
 		(property "Footprint" "Common_slot2:XT60_Numbered"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "735eaa0c-c93f-47ed-98f4-59fde67ad76e")
@@ -3184,7 +3184,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "d8d2f02e-6303-4068-a853-a958f4abf890")
@@ -3196,7 +3196,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "dfe92e12-2e87-41c0-aa9c-9c1a64854fc0")
