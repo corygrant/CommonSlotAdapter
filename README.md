@@ -11,4 +11,4 @@ Based on Rob Ruark's [Common Slot Breakout](http://robruark.com/projects/common_
 
 Note: 1K resistor connected between pin 33 and 36 to turn the output on. 
 
-![Adapter](images/CommonSlotAdapter.jpg)
+![Adapter](Images/CommonSlotAdapter.jpg)
