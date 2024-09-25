@@ -1,17 +1,12 @@
-## dingoPDM
-dingoPDM is an Infineon Profet based Power Distribution Module. 
+## CommonSlotAdapter
 
-# [**Documentation**](https://corygrant.github.io/dingoPDM/)
+Adapt HP server power supplies to common high power connectors rather than typical multiple PCI-E connectors.
 
-# [**Store**](https://dingo-electronics.square.site/product/dingopdm/1)
+Based on Rob Ruark's [Common Slot Breakout](http://robruark.com/projects/common_slot/common_slot.html), see local copy of his files here in this repo under [CommonSlot_RobRuark](https://github.com/corygrant/CommonSlotAdapter/tree/main/CommonSlot_RobRuark) for reference.
 
-## Disclaimer
-Please note that this product has been designed by a hobbyist, not a professional. It is intended for off-road and testing use only. Users should operate the product at their own discretion and risk. The designer explicitly disclaims any responsibility for damage or injury that may result from the use of this product.
+- Card edge connector: 
+    - Amphenol FCI 10053363-200LF [Digikey](https://www.digikey.com/en/products/detail/amphenol-cs-fci/10053363-200LF/1493359?s=N4IgTCBcDaIIwAYEFYDMqBsqC0YkBkAxEAXQF8g)
+- Banana jacks: 105-0752-001 [Digikey-Red](https://www.digikey.com/en/products/detail/cinch-connectivity-solutions-johnson/105-0752-001/5887) / [Digikey-Black](https://www.digikey.com/en/products/detail/cinch-connectivity-solutions-johnson/105-0753-001/5888) 
+- Switch: ATE1D-2M3-10-Z [Digikey](https://www.digikey.com/en/products/detail/nidec-components-corporation/ate1d-2m3-10-z/1792018)
 
-![Full1](docs/images/Full1.jpg)
-
-![Full2](docs/images/Full2.jpg)
-
-![PCB1](docs/images/PCB1.jpg)
-
-![PCB2](docs/images/PCB2.jpg)
+Note: 1K resistor connected between pin 33 and 36 to turn the output on. 

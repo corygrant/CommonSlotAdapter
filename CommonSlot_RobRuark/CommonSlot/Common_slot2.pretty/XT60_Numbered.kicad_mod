@@ -1,0 +1,157 @@
+(footprint "XT60_Numbered"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -4.064 9.144 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "bd3a7f7c-098f-41e2-a4d2-a83cc5ace357")
+		(effects
+			(font
+				(size 0.93472 0.93472)
+				(thickness 0.08128)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Value" "Val**"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "76ea4d15-63ba-41bf-bf01-92c94af3a723")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2a8afdd3-a4a7-4961-877b-4087bdf93a8c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "da6cc85d-884d-4810-b866-e9721a7fc0b1")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "25553cfc-8115-4bb3-96b5-5ee796ceae57")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_line
+		(start -4.05 -4.75)
+		(end -2 -7.75)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "07d3c866-afe1-4134-8d74-b70fe065f0db")
+	)
+	(fp_line
+		(start -4.05 7.75)
+		(end -4.05 -4.75)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8b0a331d-0a67-4798-9a8e-429636106d5c")
+	)
+	(fp_line
+		(start -2 -7.75)
+		(end 2 -7.75)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "67319254-924e-40c3-b564-b077ffeb5801")
+	)
+	(fp_line
+		(start 2 -7.75)
+		(end 4.05 -4.75)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "164987f9-3cbe-461c-801b-c260f37879b7")
+	)
+	(fp_line
+		(start 4.05 -4.75)
+		(end 4.05 7.75)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1757d752-cfec-462b-95af-1b90da6b3624")
+	)
+	(fp_line
+		(start 4.05 7.75)
+		(end -4.05 7.75)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3195bce6-8978-4ebd-8221-58587f9d276f")
+	)
+	(pad "1" thru_hole circle
+		(at 0 -3.6)
+		(size 5.716 5.716)
+		(drill 4.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.1016)
+		(thermal_bridge_angle 0)
+		(uuid "fb2f2d8d-b0d7-4383-be14-0253dd5bd232")
+	)
+	(pad "2" thru_hole circle
+		(at 0 3.6)
+		(size 5.716 5.716)
+		(drill 4.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.1016)
+		(thermal_bridge_angle 0)
+		(uuid "93b126a1-fa95-44ce-9836-b97b444060fd")
+	)
+	(model "${CGRANTKICADLIBRARIES}/XT/XB-TX60U-M.step"
+		(offset
+			(xyz 0 0 13.97)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -180 0 180)
+		)
+	)
+)

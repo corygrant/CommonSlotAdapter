@@ -16,7 +16,7 @@
 			(justify right bottom)
 		)
 	)
-	(property "Value" ""
+	(property "Value" "Val**"
 		(at 0 0 0)
 		(layer "F.Fab")
 		(uuid "13133717-9c24-43aa-a352-2bcf9a6e05d1")
@@ -782,5 +782,16 @@
 		(solder_mask_margin 0.1016)
 		(thermal_bridge_angle 0)
 		(uuid "112d3818-7426-4526-86c8-20e56b57b03c")
+	)
+	(model "${CGRANTKICADLIBRARIES}/CardEdge/10053363200LFc.step"
+		(offset
+			(xyz 0 2.54 5.08)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 180 0)
+		)
 	)
 )
