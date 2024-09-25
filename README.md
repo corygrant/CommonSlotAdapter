@@ -10,3 +10,5 @@ Based on Rob Ruark's [Common Slot Breakout](http://robruark.com/projects/common_
 - Switch: ATE1D-2M3-10-Z [Digikey](https://www.digikey.com/en/products/detail/nidec-components-corporation/ate1d-2m3-10-z/1792018)
 
 Note: 1K resistor connected between pin 33 and 36 to turn the output on. 
+
+![Adapter](images/CommonSlotAdapter.jpg)
