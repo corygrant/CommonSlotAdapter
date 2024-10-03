@@ -9,6 +9,8 @@ Adapt HP server power supplies to common high power connectors rather than typic
 - Switch: 
     - Nidec ATE1D-2M3-10-Z [Digikey](https://www.digikey.com/en/products/detail/nidec-components-corporation/ate1d-2m3-10-z/1792018)
 
+Note: I had issues with the typical resistor across 33 and 36. That approach did not work for me. V2 fixes the issues that I had. 
+
 ![Adapter](Images/CommonSlotAdapter.jpg)
 
 ![Schem](Images/CommonSlotAdapter_Schematic.jpg)
