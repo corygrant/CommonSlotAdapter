@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "CommonSlotAdapter")
-		(date "2024-09-24")
-		(rev "v1")
+		(date "2024-10-02")
+		(rev "v2")
 		(company "Dingo Electronics")
 	)
 	(lib_symbols
@@ -3140,6 +3140,12 @@
 		(uuid "9ef6a5f2-80cf-4c4b-b7b4-1b98b73f63ba")
 	)
 	(junction
+		(at 116.84 113.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a2e5e05c-b1ba-492e-858b-ddf52a3064d9")
+	)
+	(junction
 		(at 104.14 105.41)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3259,6 +3265,34 @@
 		(color 0 0 0 0)
 		(uuid "f5a8e7a2-16bf-4553-956d-6bf9f3c0e130")
 	)
+	(no_connect
+		(at 104.14 128.27)
+		(uuid "5e134514-71af-4568-a70e-42fa8054e482")
+	)
+	(no_connect
+		(at 104.14 115.57)
+		(uuid "64c9cf1f-cc87-475a-ae86-4d298a1eb347")
+	)
+	(no_connect
+		(at 104.14 125.73)
+		(uuid "776e40f6-1390-4f85-9c2b-c2beb51c00ef")
+	)
+	(no_connect
+		(at 104.14 123.19)
+		(uuid "9b319bad-defc-4f01-8327-41e97afac911")
+	)
+	(no_connect
+		(at 104.14 118.11)
+		(uuid "c8e0aa4f-29bb-41b9-8683-b72c4d7f7e55")
+	)
+	(no_connect
+		(at 104.14 120.65)
+		(uuid "dad7b8dc-2c18-458f-a743-ecccba7d483e")
+	)
+	(no_connect
+		(at 139.7 125.73)
+		(uuid "e583b205-bdad-42ec-9d3b-7997c259e0b4")
+	)
 	(wire
 		(pts
 			(xy 104.14 113.03) (xy 104.14 110.49)
@@ -3268,16 +3302,6 @@
 			(type default)
 		)
 		(uuid "00fa951b-ed2b-4f75-9b74-29c066f5bb04")
-	)
-	(wire
-		(pts
-			(xy 154.94 130.81) (xy 154.94 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "02b9dad8-0758-410c-9991-44ac6379d939")
 	)
 	(wire
 		(pts
@@ -3308,6 +3332,16 @@
 			(type default)
 		)
 		(uuid "06477aa0-ab69-4582-8d47-9ba63b59a6e6")
+	)
+	(wire
+		(pts
+			(xy 143.51 113.03) (xy 116.84 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "089a06d8-2454-44a7-b08e-1306ad864bb1")
 	)
 	(wire
 		(pts
@@ -3441,6 +3475,16 @@
 	)
 	(wire
 		(pts
+			(xy 116.84 118.11) (xy 123.19 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2af28696-0773-423c-9f81-4abf6d3038c2")
+	)
+	(wire
+		(pts
 			(xy 116.84 82.55) (xy 120.65 82.55)
 		)
 		(stroke
@@ -3541,16 +3585,6 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 128.27) (xy 124.46 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6a61be05-f4bd-4ea9-992b-fe7c58bee3fe")
-	)
-	(wire
-		(pts
 			(xy 116.84 72.39) (xy 116.84 74.93)
 		)
 		(stroke
@@ -3591,26 +3625,6 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 128.27) (xy 138.43 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7ca1654c-54b9-403c-865a-dd4ade7d504a")
-	)
-	(wire
-		(pts
-			(xy 148.59 130.81) (xy 154.94 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7d570adc-ea2b-4ab1-a562-12b2cbd80511")
-	)
-	(wire
-		(pts
 			(xy 104.14 97.79) (xy 104.14 95.25)
 		)
 		(stroke
@@ -3641,6 +3655,26 @@
 	)
 	(wire
 		(pts
+			(xy 116.84 128.27) (xy 129.54 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d1c0363-cc99-404d-9dff-4e9ca3f94821")
+	)
+	(wire
+		(pts
+			(xy 143.51 113.03) (xy 143.51 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e488606-c913-4271-88cf-d4afab086836")
+	)
+	(wire
+		(pts
 			(xy 116.84 64.77) (xy 116.84 67.31)
 		)
 		(stroke
@@ -3648,16 +3682,6 @@
 			(type default)
 		)
 		(uuid "909aab82-beea-40ab-8bab-a7db7b0da065")
-	)
-	(wire
-		(pts
-			(xy 154.94 120.65) (xy 116.84 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "99b47592-0551-4008-aae1-682e3540baf7")
 	)
 	(wire
 		(pts
@@ -3678,6 +3702,16 @@
 			(type default)
 		)
 		(uuid "9b67d939-a781-4fb7-b9a2-d0fb804fdd83")
+	)
+	(wire
+		(pts
+			(xy 130.81 120.65) (xy 116.84 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b6c733c-d91c-48ab-9cd5-35cdabcdad96")
 	)
 	(wire
 		(pts
@@ -3761,6 +3795,16 @@
 	)
 	(wire
 		(pts
+			(xy 139.7 130.81) (xy 143.51 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bed3656a-d802-43fd-b4e3-c2d2a65f4ebb")
+	)
+	(wire
+		(pts
 			(xy 104.14 69.85) (xy 104.14 72.39)
 		)
 		(stroke
@@ -3808,6 +3852,26 @@
 			(type default)
 		)
 		(uuid "d632f561-6aad-4bf8-ab27-647d5af66b8a")
+	)
+	(wire
+		(pts
+			(xy 128.27 118.11) (xy 130.81 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0cefa99-fc55-45dc-a33f-a8cdcdda88ac")
+	)
+	(wire
+		(pts
+			(xy 130.81 118.11) (xy 130.81 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9458565-ed36-464d-9066-35dcd2cd75ff")
 	)
 	(wire
 		(pts
@@ -5902,7 +5966,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 127 128.27 270)
+		(at 125.73 118.11 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5910,15 +5974,15 @@
 		(dnp no)
 		(uuid "ea0e392a-6f8b-47ef-8a40-9463102acade")
 		(property "Reference" "R1"
-			(at 127 125.73 90)
+			(at 125.73 115.57 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "1K"
-			(at 127 130.81 90)
+		(property "Value" "22K"
+			(at 125.73 122.174 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5926,7 +5990,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 127 128.27 0)
+			(at 125.73 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5935,7 +5999,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 127 128.27 0)
+			(at 125.73 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5944,7 +6008,7 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
-			(at 127 128.27 0)
+			(at 125.73 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6101,7 +6165,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_SPDT_312")
-		(at 143.51 128.27 0)
+		(at 134.62 128.27 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6109,7 +6173,7 @@
 		(dnp no)
 		(uuid "f915be6d-8ff3-4fee-8c7b-a08b5745a3e1")
 		(property "Reference" "SW1"
-			(at 143.51 122.936 0)
+			(at 134.62 122.936 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6117,7 +6181,7 @@
 			)
 		)
 		(property "Value" "ON/OFF"
-			(at 143.51 133.858 0)
+			(at 134.62 133.858 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6125,7 +6189,7 @@
 			)
 		)
 		(property "Footprint" "digikey-footprints:Switch_Toggle_ATE1D-2M3-10-Z"
-			(at 143.51 138.43 0)
+			(at 134.62 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6134,7 +6198,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 143.51 135.89 0)
+			(at 134.62 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6143,7 +6207,7 @@
 			)
 		)
 		(property "Description" "Switch, single pole double throw"
-			(at 143.51 128.27 0)
+			(at 134.62 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
